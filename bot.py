@@ -140,7 +140,7 @@ def handler(event, context):
         return formatted_server_message
 
     # Starts the Discord Client connection
-    client.run(TOKEN)
+    client.run('TOKEN')
 
     return {
     'message': "Success"
